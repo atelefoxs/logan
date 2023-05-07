@@ -26,3 +26,6 @@ body {
   /* 简单给个定位，具体值用 js 随机生成 */
   position: absolute;
 }
+audio{
+  display: none;
+}
