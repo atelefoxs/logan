@@ -2,7 +2,7 @@
 let body = document.querySelector("body");
 
 // 创建多少个 img 标签
-let count = 25;
+let count = 28;
 // 循环生成多个 img 弓箭图片元素，并放进 body 元素里面
 for (let i = 0; i < count; i++) {
   let img = document.createElement("img");
