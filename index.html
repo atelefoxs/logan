@@ -6,14 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>你好，打钱</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-<link rel="stylesheet" href="./css/index.css">
-
 <body>
 <img src="image/thrme.png" alt="">
 
 <!-- <img class="archer" src="./image/archery.png">-->
 
 <script src="./js/index.js"></script>
+<script type="text/javascript">
+    window.onload = function(){
+        setInterval("toggleSound()",1);
+    }
+
+    function toggleSound() {
+        var music = document.getElementById("aud");
+        if (music.paused) {
+            music.paused=false;
+            music.play();
+        }
+    }
+</script>
 </body>
 </html>
